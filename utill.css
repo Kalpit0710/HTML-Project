@@ -1,0 +1,67 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.flex{
+    display: flex;
+    
+}
+.left img{
+    width: 25ch;
+    height: 25ch;
+}
+nav{
+    margin: auto;
+}
+header{
+    margin: auto;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    padding:  70px;
+}
+img{
+    border-radius: 5%;
+}
+body{
+    font-weight: 600;
+    font-size: larger;
+    background-image: url(https://ssca.com/wp-content/uploads/2021/01/dark-blue-tech-bg-1.jpg);
+    margin: 0px;
+}
+.p1{
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+    align-items: center;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(153, 228, 255);
+    padding: 100px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(0, 145, 255);
+    color: aliceblue;
+    border: 0ch;
+    border-radius: 20ch;
+    cursor: pointer;
+    
+} 
+button:hover{
+    background-color: rgb(2, 106, 243);
+    color: rgb(208, 203, 61);
+    
+} 
+table,th,td {
+    border:2px solid;
+    border-collapse:collapse;
+    height: 30px;
+    width: 1000px;
+    margin: auto;
+    color: rgb(160, 211, 255);   
+}

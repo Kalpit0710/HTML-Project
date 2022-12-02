@@ -1,0 +1,107 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.flex{
+    display: flex;
+    
+}
+.left img{
+    width: 25ch;
+    height: 25ch;
+}
+nav{
+    margin: auto;
+}
+header{
+    margin: auto;
+    
+    
+}
+nav div button {
+    height: 70px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 20px;
+    font-family: serif;
+    cursor: pointer;
+    
+}
+button:hover{
+    box-shadow: 100ch;
+    background-color: antiquewhite;
+}
+.flex-container div {
+    padding-left: 130%;
+}
+
+    
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 200px; 
+     
+}
+.info{
+    font-weight: 600;
+    font-size: medium;
+    font-style: italic;
+    align-items: center;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    padding: 100px;
+    background-color: rgba(245, 132, 132, 0.686);
+    
+    
+}
+.i{
+    width: 550px;
+    
+}
+.j{
+    width: 500px;
+    margin-top: 30px;
+}
+.k{
+    margin-top: 30px;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+.inti{
+    align-items: center;
+    background: url(https://www.amd.com/system/files/2022-09/1536834-amd-ryzen-7000-series-beauty-1260x709_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.inti1{
+    align-items: center;
+    background: url(https://www.idgcdn.com.au/article/images/740x500/dimg/radeon-rx-vega-logo-100711091-orig_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inti10{
+    align-items: center;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.inti11{
+    align-items: center;
+    background: url(images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    justify-content: space-between;
+}
+.tab{
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+}
